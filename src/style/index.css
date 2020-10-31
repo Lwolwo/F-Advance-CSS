@@ -18,3 +18,21 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  background-color: #262626;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-content {
+  display: flex;
+}

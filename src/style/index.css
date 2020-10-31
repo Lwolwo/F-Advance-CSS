@@ -35,4 +35,18 @@ ul {
 
 .main-content {
   display: flex;
+  padding: 50px;
+}
+
+.aside-card {
+  padding: 20px;
+  margin-right: 40px;
+}
+
+.aside-card .title {
+  font-style: italic;
+}
+
+.aside .about {
+  background-color: #f7f9fb;
 }

@@ -79,3 +79,41 @@ ul {
   color: #057bfe;
   text-decoration: none;
 }
+
+.log-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.form {
+  background-color: #f4f4f4;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.form .input-text {
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.form .input-submit {
+  width: 100%;
+  background: #057bfe;
+  color: #fff;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 10px;
+}

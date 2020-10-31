@@ -36,6 +36,11 @@ ul {
 .main-content {
   display: flex;
   padding: 50px;
+  justify-content: space-around;
+}
+
+.aside {
+  flex: 1;
 }
 
 .aside-card {
@@ -49,4 +54,28 @@ ul {
 
 .aside .about {
   background-color: #f7f9fb;
+}
+
+.main {
+  flex: 4;
+}
+
+.main-card {
+  border: 1px solid #ececec;
+  padding: 20px;
+  width: 420px;
+  margin-bottom: 30px;
+}
+
+.float-card-left {
+  float: left;
+}
+
+.float-card-right {
+  float: right;
+}
+
+.main-card .link {
+  color: #057bfe;
+  text-decoration: none;
 }
